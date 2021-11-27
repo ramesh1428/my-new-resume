@@ -1,0 +1,33 @@
+.resume_page{
+    grid-template-columns: 40% 50%;
+}
+#bar{
+    width: 500px;
+}
+
+@keyframes anim{
+   from{
+       width: 0px;
+   }
+   to{
+       width: 480px;
+   }
+}
+
+@keyframes anim1{
+   from{
+       width: 0px;
+   }
+   to{
+       width: 500px;
+   }
+}
+
+@keyframes anim2{
+   from{
+       width: 0px;
+   }
+   to{
+       width: 430px;
+   }
+}

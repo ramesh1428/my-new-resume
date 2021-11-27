@@ -1,0 +1,29 @@
+#bar{
+    width: 400px;
+}
+@keyframes anim{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 380px;
+    }
+ }
+ 
+ @keyframes anim1{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 400px;
+    }
+ }
+ 
+ @keyframes anim2{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 330px;
+    }
+ }

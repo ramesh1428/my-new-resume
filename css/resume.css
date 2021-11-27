@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+html{
+    color:rgb(90, 83, 83);
+    line-height: 1.5;
+}
+
+ 
+body{
+    padding: 3rem 3rem;
+    background: linear-gradient(rgb(233, 230, 230) 50%,rgb(183 239 129) 50%);
+
+}
+h1{
+    font-size: 1.5rem;
+}
+h2{
+   font-size: 1rem;
+   border-top: 1px solid #888;
+   border-bottom: 1px solid #888;
+   padding: 10px;
+   margin-bottom: 2rem;
+   
+}
+h3{
+font-size: 0.8rem;
+color: chartreuse;
+
+}
+p{
+    line-height: 1.5;
+}
+ul{
+    list-style: none;
+}
+section{
+    margin-top: 2rem ;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    border-radius: 999px;
+    height: 10rem;
+    width: 10rem;
+}
+.profile p{
+    margin-bottom: 2rem;
+    color: #888;
+    font-size: 1.25rem;
+}
+.contact ul{
+    margin-top: -2rem;
+}
+.contact li{
+    text-align: right;
+    padding: 10px;
+    border-bottom: 1px solid #888;
+    color: #888;
+}
+.skills > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    
+}
+.timeline .event + .event{
+    padding-top: 1rem;
+}
+.event{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.content{
+    border-left: 1px solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+.resume_page{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 4rem;
+    background-color: white;
+    padding: 1rem;
+}
+
+#bar{
+    background-color:rgb(183 239 129);
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 650px;
+    height: 20px;
+    
+}
+#box:hover{
+    color: white;
+   background-color:green;
+   animation-name: anim;
+   animation-duration: 2s;
+   animation-iteration-count: 1 ;
+   animation-fill-mode: forwards;
+}
+@keyframes anim{
+   from{
+       width: 0px;
+   }
+   to{
+       width: 610px;
+   }
+}
+#box1:hover{
+    color: white;
+   background-color:green;
+   animation-name: anim1;
+   animation-duration: 2s;
+   animation-iteration-count: 1 ;
+   animation-fill-mode: forwards;
+}
+@keyframes anim1{
+   from{
+       width: 0px;
+   }
+   to{
+       width: 650px;
+   }
+}
+#box2:hover{
+    color: white;
+   background-color:green;
+   animation-name: anim2;
+   animation-duration: 2s;
+   animation-iteration-count: 1 ;
+   animation-fill-mode: forwards;
+}
+@keyframes anim2{
+   from{
+       width: 0px;
+   }
+   to{
+       width: 550px;
+   }
+}

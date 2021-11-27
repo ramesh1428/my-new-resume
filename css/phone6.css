@@ -1,0 +1,36 @@
+.resume_page{
+    display: block;
+}
+#bar{
+    width: 290px;
+}
+body{
+    padding: 0px;
+    background: none;
+}
+@keyframes anim{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 270px;
+    }
+ }
+ 
+ @keyframes anim1{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 290px;
+    }
+ }
+ 
+ @keyframes anim2{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 220px;
+    }
+ }
