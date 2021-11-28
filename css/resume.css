@@ -101,6 +101,8 @@ a{
     font-weight: bold;
     width: 650px;
     height: 20px;
+    border-radius: 50px;
+    padding-left: 3px;
     
 }
 #box:hover{
@@ -110,6 +112,7 @@ a{
    animation-duration: 2s;
    animation-iteration-count: 1 ;
    animation-fill-mode: forwards;
+   border-radius: 50px;
 }
 @keyframes anim{
    from{
@@ -126,6 +129,7 @@ a{
    animation-duration: 2s;
    animation-iteration-count: 1 ;
    animation-fill-mode: forwards;
+   border-radius: 50px; 
 }
 @keyframes anim1{
    from{
@@ -142,6 +146,7 @@ a{
    animation-duration: 2s;
    animation-iteration-count: 1 ;
    animation-fill-mode: forwards;
+   border-radius: 50px; 
 }
 @keyframes anim2{
    from{
